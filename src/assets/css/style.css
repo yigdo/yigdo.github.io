@@ -1,0 +1,31 @@
+.banner {
+       background-image: url("../img/wallpaper3.jpeg");
+       background-repeat: repeat;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 350px;
+}
+
+.banner-img {
+       border-radius: 50%;
+       border: 3px solid white;
+       width: 250px;
+}
+
+
+.border-menu {
+       border: 2px solid gray;
+       margin-top: 0px;
+       position: absolute;
+       width: 100%;
+       left: 0px;
+}
+
+.main {
+       position: absolute;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       top:420px;
+}
