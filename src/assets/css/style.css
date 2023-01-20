@@ -1,31 +1,47 @@
 .banner {
-       background: #456;
-       background-repeat: repeat;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       height: 350px;
+  background: #456;
+  background-repeat: repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
 }
-
+a{
+  color: rgb(40, 125, 255);
+  text-decoration: none;
+}
 .banner-img {
-       border-radius: 50%;
-       border: 3px solid white;
-       width: 250px;
+  border-radius: 50%;
+  border: 3px solid white;
+  width: 250px;
 }
-
 
 .border-menu {
-       border: 2px solid gray;
-       margin-top: 0px;
-       position: absolute;
-       width: 100%;
-       left: 0px;
+  border: 2px solid gray;
+  margin-top: 0px;
+  width: 100%;
+  left: 0px;
 }
 
 .main {
-       position: absolute;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       top:420px;
+  margin:15px;
+  position: relative;
+
+  margin-bottom: 150px;
+}
+.card{
+  position:relative;
+}
+.hero-main {
+  background-image: url('../img/herobanner.jpg');
+  width:100vw;
+  margin: 0px;
+  border-radius: 0px;
+  color: rgb(247, 247, 247)
+}
+.footer{
+  padding:10px;
+  border-top: 1px solid #dee2e6;
+  margin-top: auto;
+  background-color: #fff;
 }

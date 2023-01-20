@@ -28,7 +28,7 @@ export default function Navbar(props) {
           <img className="banner-img" src={yigit} alt="" />
         </div>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-white border-menu ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white ">
           <div class="container-fluid">
             <button
               class="navbar-toggler"
