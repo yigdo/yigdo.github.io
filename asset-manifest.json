@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.223d01bf.css",
-    "main.js": "/static/js/main.c08990b1.js",
+    "main.js": "/static/js/main.b81cdd9f.js",
     "static/media/teacup.jpeg": "/static/media/teacup.a7b363de5f766b23b312.jpeg",
     "static/media/herobanner.jpg": "/static/media/herobanner.9091f41af6bc63f3c75c.jpg",
     "static/media/yigit.jpeg": "/static/media/yigit.87fdca59f504e73bb856.jpeg",
     "static/media/minecraft.jpeg": "/static/media/minecraft.f09d8e669e14c4fadefb.jpeg",
     "index.html": "/index.html",
     "main.223d01bf.css.map": "/static/css/main.223d01bf.css.map",
-    "main.c08990b1.js.map": "/static/js/main.c08990b1.js.map"
+    "main.b81cdd9f.js.map": "/static/js/main.b81cdd9f.js.map"
   },
   "entrypoints": [
     "static/css/main.223d01bf.css",
-    "static/js/main.c08990b1.js"
+    "static/js/main.b81cdd9f.js"
   ]
 }
