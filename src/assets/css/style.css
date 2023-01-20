@@ -1,5 +1,5 @@
 .banner {
-       background-image: url("../img/wallpaper3.jpeg");
+       background: #456;
        background-repeat: repeat;
        display: flex;
        align-items: center;
