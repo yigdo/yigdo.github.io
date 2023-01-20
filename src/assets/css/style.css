@@ -17,7 +17,7 @@ a{
 }
 
 .border-menu {
-  border: 2px solid gray;
+  border-bottom: 1px solid #dee2e6;
   margin-top: 0px;
   width: 100%;
   left: 0px;
@@ -44,4 +44,20 @@ a{
   border-top: 1px solid #dee2e6;
   margin-top: auto;
   background-color: #fff;
+}
+.projects-content{
+  background-color: rgb(241, 248, 255);
+  margin: 0;
+  height: 100vh;
+}
+.tbl-header{
+  padding:5px;
+  background-color: #FF7B54;
+}
+.border-right{
+  border-left: 1px solid #dee2e6;
+}
+.tbl-column{
+  padding:5px;
+  background-color: #B08BBB;
 }

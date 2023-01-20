@@ -6,19 +6,18 @@ import "bootstrap/dist/js/bootstrap.js";
 
 export default function Navbar(props) {
   var activision = props.activision;
-  var homeclass = "nav-link";
-  var projectsclass = "nav-link";
-  var galleryclass = "nav-link";
-  var aboutclass = "nav-link";
+  var homeclassName = "nav-link";
+  var projectsclassName = "nav-link";
+  var aboutclassName = "nav-link";
+  var isBorderclassName = props.border;
+
 
   if (activision == "Home") {
-       homeclass = "nav-link active";
+       homeclassName = "nav-link active";
   } else if (activision == "Projects") {
-       projectsclass = "nav-link active";
-  } else if (activision == "Gallery") {
-       galleryclass = "nav-link active";
+       projectsclassName = "nav-link active";
   } else if (activision == "About") {
-       aboutclass = "nav-link active";
+       aboutclassName = "nav-link active";
   }
 
   return (
@@ -28,10 +27,10 @@ export default function Navbar(props) {
           <img className="banner-img" src={yigit} alt="" />
         </div>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-white ">
-          <div class="container-fluid">
+        <nav className="navbar navbar-expand-lg navbar-light bg-white">
+          <div className="container-fluid">
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNavAltMarkup"
@@ -39,20 +38,17 @@ export default function Navbar(props) {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav mx-auto ">
-                <a class={homeclass} aria-current="page" href="/" id="homelink">
+            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div className="navbar-nav mx-auto ">
+                <a className={homeclassName} aria-current="page" href="/" id="homelink">
                   Home
                 </a>
-                <a class={projectsclass} href="/projects" id="projectslink">
+                {/* <a className={projectsclassName} href="/projects" id="projectslink">
                   Projects
-                </a>
-                <a class={galleryclass} href="/gallery" id="gallerylink">
-                  Gallery
-                </a>
-                <a class={aboutclass} href="/about" id="aboutlink">
+                </a> */}
+                <a className={aboutclassName} href="/about" id="aboutlink">
                   About
                 </a>
               </div>
