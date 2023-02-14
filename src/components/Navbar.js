@@ -48,7 +48,7 @@ export default function Navbar(props) {
                 {/* <a className={projectsclassName} href="/projects" id="projectslink">
                   Projects
                 </a> */}
-                <a className={aboutclassName} href="/about" id="aboutlink">
+                <a className={aboutclassName} href="/#/about" id="aboutlink">
                   About
                 </a>
               </div>

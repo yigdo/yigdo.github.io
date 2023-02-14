@@ -36,7 +36,7 @@ export default function Home() {
               </h6>
               <a
                 className="btn btn-outline-light btn-lg"
-                href="/about"
+                href="/#/About"
                 role="button"
               >
                 About
